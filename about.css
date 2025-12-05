@@ -1,0 +1,153 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main  {
+  background-color: rgb(243, 241, 241);
+  display: flex;
+  padding: 30px 20px;
+  height: 80px;
+  top: 0;
+  position: sticky;
+}
+.main li{
+text-align: center;
+display: inline;
+}
+.left{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.left a, .center a{
+  text-decoration: none;
+  color: rgb(9, 9, 9);
+}
+.center a{
+  padding: 0 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+.center{
+  margin-left: 250px;
+}
+.center a:hover{
+  border-bottom: 3px solid rgb(145, 241, 221);
+  color: rgb(30, 158, 158);
+  transition: width 0.3s;
+  width:20% ;
+}
+.dropdown .dropbtn {
+  border: none;
+  color: rgb(51, 51, 51);
+  outline: none;
+  background-color: inherit;/*inherit means taking properties or behaviors from a parent element or class.
+             */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-left: 30px;
+}
+.dropdown .dropbtn:hover{
+    border-bottom: 3px solid rgb(145, 241, 221);
+  color: rgb(30, 158, 158);
+  transition: width 0.3s;
+  width:20% ;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:80px;
+  margin-left: 30px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: nonee;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+  text-align: center;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.social-icon{
+  margin-left: 200px;
+}
+.social-icon a{
+  margin-right:10px;
+  color: rgb(133, 131, 131);
+  font-size: 18px;
+  text-decoration: none;
+}
+.social-icon a:hover{
+ color: rgb(30, 158, 158);
+
+}
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+}
+.section h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    color: rgb(30, 158, 158);
+    margin-bottom: 80px;
+}
+.section img{
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+}
+.para-section h4{
+    margin-left: 450px;
+    margin-top: -350px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.para-section .p1{
+     margin-left: 550px;
+     font-size: 20px;
+}
+.para-section .p1 p{
+    margin-bottom: 50px;
+   color: #676565;
+}
+.para-section .sp1{
+    color: black;
+}
+.footer{ 
+  text-align: center;
+  background-color:rgb(243, 241, 241); ;
+}
+.footer p{
+ padding-top: 70px;
+  margin-bottom: 15px;
+}
+.footer .social-button{
+ padding: 15px;
+}
+.social-button a{
+  border-radius: 50%;
+  background-color: rgb(248, 246, 246);
+  height: 40px;
+  width: 40px;
+  padding: 10px 0px;
+  border: 1px solid grey;
+  color: rgb(148, 148, 148);
+  font-size: 15px;
+  margin-right: 5px;
+}
+.social-button a:hover{
+  color: rgb(30, 158, 158);
+  border: 1px solid rgb(30, 158, 158);
+}
